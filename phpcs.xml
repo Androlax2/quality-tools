@@ -2,6 +2,7 @@
 <ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="PSR2" xsi:noNamespaceSchemaLocation="../../../phpcs.xsd">
     <description>The PSR-2 coding standard.</description>
     <arg name="tab-width" value="4"/>
+    <exclude-pattern>*\.(css|js)</exclude-pattern>
 
     <rule ref="Generic.PHP.DisallowShortOpenTag.EchoFound">
         <severity>0</severity>

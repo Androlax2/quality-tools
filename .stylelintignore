@@ -1,4 +1,5 @@
-*
+*.*
+artisan
 vendor/**
 node_modules/**
 bin/**
